@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "npx @cloudflare/next-on-pages@latest",
-    "start": "next start",
-    "lint": "next lint"
-  },
+  "dev": "next dev --turbo",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint"
+},
   "dependencies": {
     "@codemirror/lang-javascript": "^6.2.3",
     "@codemirror/lang-python": "^6.1.7",
